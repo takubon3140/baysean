@@ -1,5 +1,6 @@
 from itertools import product
 from sklearn.gaussian_process import GaussianProcess
+import numpy as np
 
 class BayesianOptimizer:
     x_list = None
